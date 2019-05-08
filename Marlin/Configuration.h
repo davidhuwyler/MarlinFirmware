@@ -742,8 +742,8 @@
  * value set here, it may happen instantaneously.
  */
 #if DISABLED(JUNCTION_DEVIATION)
-  #define DEFAULT_XJERK 9.0
-  #define DEFAULT_YJERK 9.0
+  #define DEFAULT_XJERK 18
+  #define DEFAULT_YJERK 18
   #define DEFAULT_ZJERK  0.4
 #endif
 
@@ -878,7 +878,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER -46.5  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -0  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -1.4   // Z offset: -below +above  [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.4   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 20
